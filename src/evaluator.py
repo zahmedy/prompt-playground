@@ -9,8 +9,8 @@ Evaluate the answer using this rubric:
 Provide a final score out of 15 and short feedback.
 """
 
-
 def evaluate_answer(answer: str, model: str = DEFAULT_MODEL) -> str:
     """Grade an answer using the rubric."""
     prompt = f"{RUBRIC}\n\nAnswer:\n{answer}"
     return ask(prompt, model=model)
+
