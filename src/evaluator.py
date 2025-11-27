@@ -1,3 +1,4 @@
+from src.config import DEFAULT_MODEL
 from src.llm_client import ask
 
 RUBRIC = """
@@ -8,8 +9,8 @@ Evaluate the answer using this rubric:
 Provide a final score out of 15 and short feedback.
 """
 
-def evaluate_answer(answer, model="gpt-4o-mini"):
-    """Grade an answer using the rubric"""
+
+def evaluate_answer(answer: str, model: str = DEFAULT_MODEL) -> str:
+    """Grade an answer using the rubric."""
     prompt = f"{RUBRIC}\n\nAnswer:\n{answer}"
     return ask(prompt, model=model)
-
