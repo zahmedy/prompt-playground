@@ -1,0 +1,14 @@
+Example 1:
+Input: "The movie was absolutely fantastic, I loved every part of it!"
+Reasoning: Positive sentiment because the text contains strong positive emotion.
+Output: Positive
+
+Example 2:
+Input: "The food was okay, nothing special, but not terrible."
+Reasoning: Neutral sentiment because the reaction is mixed.
+Output: Neutral
+
+Example 3:
+Input: "This phone keeps crashing. I'm really disappointed."
+Reasoning: Negative sentiment because the user expresses frustration.
+Output: Negative

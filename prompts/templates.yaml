@@ -1,0 +1,7 @@
+summarization:
+  system: "You are a summarizer."
+  template: "Summarize this text:\n{text}"
+
+classification:
+  system: "You classify sentiment."
+  template: "Text: {text}\nSentiment:"

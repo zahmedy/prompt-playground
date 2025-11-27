@@ -1,0 +1,14 @@
+Example 1:
+Input: If all roses are flowers and some flowers fade quickly, can we conclude that some roses fade quickly?
+Reasoning: All roses are flowers, but we do not know if the subset of flowers that fade quickly includes roses.
+Output: No.
+
+Example 2:
+Input: If Ali is older than Sara, and Sara is older than Rana, who is the oldest?
+Reasoning: Older-than is a transitive relation: Ali > Sara > Rana.
+Output: Ali.
+
+Example 3:
+Input: A box has 3 red balls and 5 blue balls. If one ball is picked randomly, which color is more likely?
+Reasoning: 5 > 3, so probability of blue is higher.
+Output: Blue.

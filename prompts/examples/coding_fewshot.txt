@@ -1,0 +1,28 @@
+Example 1:
+Input: Fix this Python bug:
+    numbers = [1, 2, 3]
+    print(numbers[3])
+
+Reasoning: The list indexes are 0,1,2 — index 3 is out of range.
+Output:
+    numbers = [1, 2, 3]
+    print(numbers[2])
+
+Example 2:
+Input: Explain this code:
+    for i in range(3):
+        print(i)
+
+Reasoning: The loop runs i = 0,1,2 and prints each value.
+Output: It prints 0, 1, 2 on separate lines.
+
+Example 3:
+Input: Rewrite this code more cleanly:
+    if x > 5:
+        return True
+    else:
+        return False
+
+Reasoning: This can be simplified because the condition already returns True/False.
+Output:
+    return x > 5
