@@ -47,7 +47,6 @@ prompt-playground/
 │   ├── config.py         # Paths and model defaults
 │   ├── llm_client.py     # OpenAI client wrapper
 │   ├── evaluator.py      # Rubric-based scoring
-│   ├── utils.py          # Helpers for loading examples/building prompts
-│   └── playground.py     # CLI demo runner
+│   └── utils.py          # Helpers for loading examples/building prompts
 └── README.md
 ```

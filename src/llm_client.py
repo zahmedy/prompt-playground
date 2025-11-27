@@ -27,7 +27,7 @@ def ask(
     model: str = DEFAULT_MODEL,
     temp: float = DEFAULT_TEMPERATURE,
     max_tokens: int = DEFAULT_MAX_TOKENS,
-) -> str:
+):
     """Send a prompt to the model and return the text response."""
     response = client.chat.completions.create(
         model=model,
